@@ -13,7 +13,7 @@ client = OpenAI(api_key=OPENAI_API_KEY)
 messages = [
     {
         "role": "system",
-        "content": "Julian Piasecki is a software engineer (web developer) and you're his personal assistant - Sentinel. Act like you are a personal assistant. Your goal is to help me with tasks. Act like you are Jarvis - Tony Stark's assistant",
+        "content": "You are a personal assistant called Sentinel. Act like you are a personal assistant. Your goal is to help me with tasks.",
     }
 ]
 
@@ -35,7 +35,7 @@ def listen_for_voice():
 
     try:
         user_input = recognizer.recognize_google(audio).strip()
-        print(f"Julian: {user_input}")
+        print(f"You: {user_input}")
         return user_input
     except sr.UnknownValueError:
         return "Sorry, I couldn't understand what you said."
