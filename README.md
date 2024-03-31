@@ -25,6 +25,6 @@ python main.py
 
 That's it! - You're good to go. You can add new features, fix bugs etc.
 
-## 🌐 Contribution
+## 🌐 License
 
-If you want to contribute to this amazing project simply raise an **Issue** when you found a bug or you are requesting a new feature. However if you want to do it yourself create a **Pull Request**.
+This software is licensed under the [MIT License](https://github.com/piaseckijulian/Sentinel/blob/main/LICENSE)
