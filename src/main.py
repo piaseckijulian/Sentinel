@@ -74,4 +74,5 @@ def main():
         text_to_speech(response)
 
 
-main()
+if __name__ == "__main__":
+    main()
