@@ -13,7 +13,11 @@ client = OpenAI(api_key=OPENAI_API_KEY)
 messages = [
     {
         "role": "system",
-        "content": "You are a personal assistant called Sentinel. Act like you are a personal assistant. Your goal is to help me with tasks.",
+        "content": """
+            You are a personal assistant called Sentinel.
+            Act like you are a personal assistant.
+            Your goal is to help me with tasks.
+        """,
     }
 ]
 
@@ -45,9 +49,10 @@ def listen_for_voice():
 
 def get_response(prompt):
     try:
+        model = "gpt-3.5-turbo"
         messages.append({"role": "user", "content": prompt})
 
-        res = client.chat.completions.create(model="gpt-3.5-turbo", messages=messages)
+        res = client.chat.completions.create(messages=messages, model=model)
         reply = res.choices[0].message
 
         messages.append({"role": "assistant", "content": reply.content})
