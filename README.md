@@ -12,7 +12,6 @@ Sentinel is an AI-powered voice personal assistant designed to streamline tasks 
 - OpenAI
 - Speech Recognition
 - pyttsx3
-- dotenv
 
 ## ✨ Usage
 
