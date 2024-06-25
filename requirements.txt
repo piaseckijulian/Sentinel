@@ -12,7 +12,7 @@ idna==3.7
 openai==1.35.3
 PyAudio==0.2.14
 pydantic==2.7.4
-pydantic_core==2.19.0
+pydantic_core==2.20.0
 pypiwin32==223
 python-dotenv==1.0.1
 pyttsx3==2.90
