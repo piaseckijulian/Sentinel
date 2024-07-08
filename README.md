@@ -4,7 +4,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/piaseckijulian/Sentinel?style=for-the-badge)
 ![GitHub watchers](https://img.shields.io/github/watchers/piaseckijulian/Sentinel?style=for-the-badge)
 
-Sentinel is an AI-powered voice personal assistant designed to streamline tasks and enhance productivity for users, providing seamless voice-controlled access to information, organization, and communication functionalities. 🚀
+Sentinel is a voice-powered personal assistant AI bot that helps you manage tasks, find information, and simplify your daily work. 🚀
 
 ## 📐 Tech Stack
 
