@@ -13,7 +13,7 @@ client = OpenAI(api_key=OPENAI_API_KEY)
 messages = [SYSTEM_INITIAL_MSG]
 
 
-def get_response(prompt: str) -> str:
+def get_reply(prompt: str) -> str:
     try:
         messages.append({"role": "user", "content": prompt})
 
