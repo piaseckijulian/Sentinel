@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 Duplicate the `.env.example` file and rename it to `.env`. Insert your environmental variables there.
 
-You can get the `OPENAI_API_KEY` on [OpenAI's website](https://openai.com).
+You can get the `OPENAI_API_KEY` from [OpenAI's website](https://openai.com).
 
 **Running the Project**
 
