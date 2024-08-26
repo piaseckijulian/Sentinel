@@ -40,9 +40,9 @@ pip install -r requirements.txt
 
 **Set Up Environment Variables**
 
-Duplicate the `.env.example` file and rename it to `.env`. Insert your environmental variables there.
+Duplicate the `.env.example` file and rename it to `.env`
 
-You can get the `OPENAI_API_KEY` from [OpenAI's website](https://openai.com).
+You can get the `OPENAI_API_KEY` from [OpenAI's website](https://openai.com)
 
 **Running the Project**
 
@@ -50,7 +50,7 @@ You can get the `OPENAI_API_KEY` from [OpenAI's website](https://openai.com).
 python src/main.py
 ```
 
-That's it! - You're good to go. You can now use the project however you want.
+That's it! You're all set to start using the project as needed.
 
 ## 🌐 License
 
