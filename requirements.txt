@@ -1,6 +1,6 @@
 openai==1.50.0
 PyAudio==0.2.14
 python-dotenv==1.0.1
-pyttsx3==2.97
+pyttsx3==2.98
 SpeechRecognition==3.10.4
 setuptools==75.1.0
