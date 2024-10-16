@@ -3,4 +3,4 @@ PyAudio==0.2.14
 python-dotenv==1.0.1
 pyttsx3==2.98
 SpeechRecognition==3.10.4
-setuptools==75.1.0
+setuptools==75.2.0
