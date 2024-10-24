@@ -1,4 +1,4 @@
-openai==1.52.1
+openai==1.52.2
 PyAudio==0.2.14
 python-dotenv==1.0.1
 pyttsx3==2.98
